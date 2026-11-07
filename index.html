@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>InkDrop Studio – Premium Graphic Tees & Merchandise</title>
+  <meta name="description" content="Browse unique, hand-crafted graphic designs available as T-shirts, hoodies, stickers, and more on TeePublic. Find your style today." />
+  <meta name="keywords" content="graphic tees, custom t-shirts, teepublic store, unique designs, hoodies, stickers, merchandise" />
+  <meta name="author" content="InkDrop Studio" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourwebsite.com/" />
+  <meta property="og:title" content="InkDrop Studio – Premium Graphic Tees & Merchandise" />
+  <meta property="og:description" content="Browse unique, hand-crafted graphic designs available as T-shirts, hoodies, stickers, and more on TeePublic." />
+  <meta property="og:image" content="https://yourwebsite.com/og-image.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="InkDrop Studio – Premium Graphic Tees & Merchandise" />
+  <meta name="twitter:description" content="Browse unique, hand-crafted graphic designs on TeePublic." />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://yourwebsite.com/" />
+
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="light-mode">
+
+  <!-- =========================================================
+       HEADER / NAVIGATION
+  ========================================================= -->
+  <header class="header" id="header" role="banner">
+    <nav class="nav container" aria-label="Main navigation">
+
+      <!-- Logo -->
+      <a href="#home" class="nav__logo" aria-label="InkDrop Studio - Home">
+        <span class="nav__logo-icon" aria-hidden="true">✦</span>
+        <span class="nav__logo-text">InkDrop<span class="nav__logo-accent">Studio</span></span>
+      </a>
+
+      <!-- Desktop Links -->
+      <ul class="nav__links" role="list">
+        <li><a href="#home"    class="nav__link" aria-current="page">Home</a></li>
+        <li><a href="#designs" class="nav__link">Designs</a></li>
+        <li><a href="#products" class="nav__link">Products</a></li>
+        <li><a href="#about"   class="nav__link">About</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+
+      <!-- Right Controls -->
+      <div class="nav__actions">
+        <!-- Theme Toggle -->
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme">
+          <span class="theme-toggle__icon theme-toggle__sun" aria-hidden="true">☀️</span>
+          <span class="theme-toggle__icon theme-toggle__moon" aria-hidden="true">🌙</span>
+        </button>
+
+        <!-- CTA -->
+        <a href="YOUR_TEEPUBLIC_STORE_URL" target="_blank" rel="noopener noreferrer"
+           class="btn btn--primary btn--sm nav__cta" id="navStoreBtn">
+          Visit My TeePublic Store ↗
+        </a>
+
+        <!-- Hamburger -->
+        <button class="nav__hamburger" id="navHamburger" aria-label="Open mobile menu" aria-expanded="false" aria-controls="navMobile">
+          <span class="nav__hamburger-line"></span>
+          <span class="nav__hamburger-line"></span>
+          <span class="nav__hamburger-line"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="nav__mobile" id="navMobile" aria-hidden="true" role="dialog" aria-label="Mobile navigation">
+      <ul class="nav__mobile-links" role="list">
+        <li><a href="#home"     class="nav__mobile-link" data-close-mobile>Home</a></li>
+        <li><a href="#designs"  class="nav__mobile-link" data-close-mobile>Designs</a></li>
+        <li><a href="#products" class="nav__mobile-link" data-close-mobile>Products</a></li>
+        <li><a href="#about"    class="nav__mobile-link" data-close-mobile>About</a></li>
+        <li><a href="#contact"  class="nav__mobile-link" data-close-mobile>Contact</a></li>
+      </ul>
+      <a href="YOUR_TEEPUBLIC_STORE_URL" target="_blank" rel="noopener noreferrer"
+         class="btn btn--primary nav__mobile-cta" id="mobileStoreBtn">
+        Visit My TeePublic Store ↗
+      </a>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- =========================================================
+         HERO SECTION
+    ========================================================= -->
+    <section class="hero" id="home" aria-label="Hero section">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__orb hero__orb--1"></div>
+        <div class="hero__orb hero__orb--2"></div>
+        <div class="hero__orb hero__orb--3"></div>
+        <div class="hero__grid"></div>
+      </div>
+
+      <div class="hero__content container">
+        <div class="hero__badge fade-in" aria-label="Store badge">
+          <span class="hero__badge-dot" aria-hidden="true"></span>
+          New Designs Available
+        </div>
+
+        <h1 class="hero__headline fade-in fade-in--delay-1">
+          Wear Your<br />
+          <span class="hero__headline-accent">Personality</span>
+        </h1>
+
+        <p class="hero__description fade-in fade-in--delay-2">
+          Unique, hand-crafted graphic designs printed on premium quality T-shirts,
+          hoodies, stickers, and more. Find a design that speaks to you.
+        </p>
+
+        <div class="hero__actions fade-in fade-in--delay-3">
+          <a href="#designs" class="btn btn--primary btn--lg">
+            Explore Designs
+            <span class="btn__arrow" aria-hidden="true">→</span>
+          </a>
+          <a href="YOUR_TEEPUBLIC_STORE_URL" target="_blank" rel="noopener noreferrer"
+             class="btn btn--outline btn--lg" id="heroStoreBtn">
+            Visit TeePublic Store ↗
+          </a>
+        </div>
+
+        <div class="hero__stats fade-in fade-in--delay-4" role="list" aria-label="Store statistics">
+          <div class="hero__stat" role="listitem">
+            <span class="hero__stat-number" aria-label="50 plus designs">50+</span>
+            <span class="hero__stat-label">Designs</span>
+          </div>
+          <div class="hero__stat-divider" aria-hidden="true"></div>
+          <div class="hero__stat" role="listitem">
+            <span class="hero__stat-number" aria-label="10 plus products">10+</span>
+            <span class="hero__stat-label">Products</span>
+          </div>
+          <div class="hero__stat-divider" aria-hidden="true"></div>
+          <div class="hero__stat" role="listitem">
+            <span class="hero__stat-number" aria-label="500 plus happy customers">500+</span>
+            <span class="hero__stat-label">Happy Customers</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll indicator -->
+      <div class="hero__scroll" aria-hidden="true">
+        <div class="hero__scroll-mouse">
+          <div class="hero__scroll-wheel"></div>
+        </div>
+        <span>Scroll to explore</span>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         DESIGNS GALLERY
+    ========================================================= -->
+    <section class="designs" id="designs" aria-label="Design gallery">
+      <div class="container">
+
+        <!-- Section Header -->
+        <div class="section-header">
+          <p class="section-tag">Gallery</p>
+          <h2 class="section-title">Featured Designs</h2>
+          <p class="section-description">
+            Each piece is crafted with passion. Browse the collection and find
+            something uniquely you.
+          </p>
+        </div>
+
+        <!-- Search & Filter Bar -->
+        <div class="filter-bar" role="search" aria-label="Design search and filter">
+          <div class="filter-bar__search">
+            <label for="searchInput" class="sr-only">Search designs by title</label>
+            <span class="filter-bar__search-icon" aria-hidden="true">🔍</span>
+            <input
+              type="search"
+              id="searchInput"
+              class="filter-bar__input"
+              placeholder="Search designs…"
+              aria-label="Search designs by title"
+              autocomplete="off"
+            />
+            <button class="filter-bar__clear" id="clearSearch" aria-label="Clear search" hidden>✕</button>
+          </div>
+
+          <div class="filter-bar__categories" role="group" aria-label="Filter by category">
+            <button class="filter-btn filter-btn--active" data-category="all" aria-pressed="true">All</button>
+            <!-- Category buttons injected by JS -->
+          </div>
+
+          <button class="btn btn--ghost btn--sm" id="resetFilters" aria-label="Reset all filters">
+            Reset
+          </button>
+        </div>
+
+        <!-- Results count -->
+        <p class="designs__count" id="designsCount" aria-live="polite" aria-atomic="true"></p>
+
+        <!-- Design Grid -->
+        <div class="designs__grid" id="designsGrid" role="list" aria-label="Design cards">
+          <!-- Cards injected by JavaScript -->
+        </div>
+
+        <!-- Empty State -->
+        <div class="designs__empty" id="designsEmpty" aria-live="polite" hidden>
+          <span class="designs__empty-icon" aria-hidden="true">🎨</span>
+          <h3>No designs found</h3>
+          <p>Try a different search term or category.</p>
+          <button class="btn btn--outline" id="emptyReset">Clear Filters</button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         PRODUCTS SECTION
+    ========================================================= -->
+    <section class="products" id="products" aria-label="Available products">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Merchandise</p>
+          <h2 class="section-title">Available Products</h2>
+          <p class="section-description">Every design is available on a wide range of high-quality products.</p>
+        </div>
+
+        <div class="products__grid" role="list">
+          <article class="product-card scroll-reveal" role="listitem">
+            <div class="product-card__icon" aria-hidden="true">👕</div>
+            <h3 class="product-card__title">T-Shirts</h3>
+            <p class="product-card__desc">Classic & fitted cuts in a wide range of colors. Soft, comfortable, and durable.</p>
+          </article>
+          <article class="product-card scroll-reveal" role="listitem">
+            <div class="product-card__icon" aria-hidden="true">🧥</div>
+            <h3 class="product-card__title">Hoodies</h3>
+            <p class="product-card__desc">Premium pullover and zip-up hoodies. Perfect for cool days and cozy nights.</p>
+          </article>
+          <article class="product-card scroll-reveal" role="listitem">
+            <div class="product-card__icon" aria-hidden="true">✨</div>
+            <h3 class="product-card__title">Stickers</h3>
+            <p class="product-card__desc">Waterproof, high-quality vinyl stickers. Decorate anything, anywhere.</p>
+          </article>
+          <article class="product-card scroll-reveal" role="listitem">
+            <div class="product-card__icon" aria-hidden="true">☕</div>
+            <h3 class="product-card__title">Mugs</h3>
+            <p class="product-card__desc">Ceramic mugs for your morning coffee or tea. Dishwasher safe and vibrant.</p>
+          </article>
+          <article class="product-card scroll-reveal" role="listitem">
+            <div class="product-card__icon" aria-hidden="true">🎒</div>
+            <h3 class="product-card__title">Tote Bags</h3>
+            <p class="product-card__desc">Sturdy, reusable tote bags. Great for shopping, the beach, or everyday carry.</p>
+          </article>
+          <article class="product-card scroll-reveal" role="listitem">
+            <div class="product-card__icon" aria-hidden="true">📱</div>
+            <h3 class="product-card__title">Phone Cases</h3>
+            <p class="product-card__desc">Slim and tough cases compatible with a wide range of smartphone models.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         ABOUT SECTION
+    ========================================================= -->
+    <section class="about" id="about" aria-label="About the designer">
+      <div class="container about__inner">
+        <div class="about__visual scroll-reveal" aria-hidden="true">
+          <div class="about__avatar">
+            <span class="about__avatar-icon">🎨</span>
+          </div>
+          <div class="about__decoration about__decoration--1"></div>
+          <div class="about__decoration about__decoration--2"></div>
+        </div>
+
+        <div class="about__content scroll-reveal">
+          <p class="section-tag">About Me</p>
+          <h2 class="section-title about__title">Passion Meets<br />Craft</h2>
+          <p class="about__text">
+            I'm an independent designer who believes that great art belongs on everyday things.
+            Every design in this store is created with attention to detail, personality, and purpose.
+          </p>
+          <p class="about__text">
+            From quirky illustrations to bold typography and minimal art — there's something here
+            for everyone. All products are printed and fulfilled by TeePublic, ensuring high quality
+            and worldwide shipping.
+          </p>
+          <div class="about__highlights" role="list">
+            <div class="about__highlight" role="listitem">
+              <span class="about__highlight-icon" aria-hidden="true">✦</span>
+              Hand-crafted original artwork
+            </div>
+            <div class="about__highlight" role="listitem">
+              <span class="about__highlight-icon" aria-hidden="true">✦</span>
+              Premium print quality via TeePublic
+            </div>
+            <div class="about__highlight" role="listitem">
+              <span class="about__highlight-icon" aria-hidden="true">✦</span>
+              Worldwide shipping & easy returns
+            </div>
+          </div>
+          <a href="YOUR_TEEPUBLIC_STORE_URL" target="_blank" rel="noopener noreferrer"
+             class="btn btn--primary" id="aboutStoreBtn">
+            Shop the Full Collection ↗
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         CONTACT SECTION
+    ========================================================= -->
+    <section class="contact" id="contact" aria-label="Contact section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Get In Touch</p>
+          <h2 class="section-title">Say Hello</h2>
+          <p class="section-description">Have a question, a custom request, or just want to chat? I'd love to hear from you.</p>
+        </div>
+
+        <div class="contact__inner">
+          <div class="contact__info scroll-reveal">
+            <div class="contact__item">
+              <span class="contact__item-icon" aria-hidden="true">📧</span>
+              <div>
+                <p class="contact__item-label">Email</p>
+                <a href="mailto:hello@youremail.com" class="contact__item-value">hello@youremail.com</a>
+              </div>
+            </div>
+            <div class="contact__item">
+              <span class="contact__item-icon" aria-hidden="true">🏪</span>
+              <div>
+                <p class="contact__item-label">TeePublic Store</p>
+                <a href="YOUR_TEEPUBLIC_STORE_URL" target="_blank" rel="noopener noreferrer" class="contact__item-value">Visit the store ↗</a>
+              </div>
+            </div>
+            <div class="contact__item">
+              <span class="contact__item-icon" aria-hidden="true">💬</span>
+              <div>
+                <p class="contact__item-label">Response time</p>
+                <span class="contact__item-value">Within 24–48 hours</span>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact__form scroll-reveal" id="contactForm" novalidate aria-label="Contact form">
+            <div class="form-group">
+              <label for="contactName" class="form-label">Your Name <span aria-hidden="true">*</span></label>
+              <input type="text" id="contactName" name="name" class="form-input" placeholder="Jane Doe" required autocomplete="name" />
+              <span class="form-error" id="nameError" role="alert"></span>
+            </div>
+            <div class="form-group">
+              <label for="contactEmail" class="form-label">Email Address <span aria-hidden="true">*</span></label>
+              <input type="email" id="contactEmail" name="email" class="form-input" placeholder="jane@example.com" required autocomplete="email" />
+              <span class="form-error" id="emailError" role="alert"></span>
+            </div>
+            <div class="form-group">
+              <label for="contactMessage" class="form-label">Message <span aria-hidden="true">*</span></label>
+              <textarea id="contactMessage" name="message" class="form-input form-textarea" placeholder="Tell me what's on your mind…" rows="5" required></textarea>
+              <span class="form-error" id="messageError" role="alert"></span>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full" id="contactSubmit">
+              Send Message
+              <span class="btn__arrow" aria-hidden="true">→</span>
+            </button>
+            <p class="contact__form-note" id="formSuccess" hidden role="status">
+              ✅ Thanks! Your message has been sent. I'll get back to you soon.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================
+       FOOTER
+  ========================================================= -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#home" class="nav__logo footer__logo" aria-label="InkDrop Studio - Back to top">
+          <span class="nav__logo-icon" aria-hidden="true">✦</span>
+          <span class="nav__logo-text">InkDrop<span class="nav__logo-accent">Studio</span></span>
+        </a>
+        <p class="footer__tagline">Wear what you love.</p>
+      </div>
+      <nav class="footer__nav" aria-label="Footer navigation">
+        <a href="#home" class="footer__link">Home</a>
+        <a href="#designs" class="footer__link">Designs</a>
+        <a href="#products" class="footer__link">Products</a>
+        <a href="#about" class="footer__link">About</a>
+        <a href="#contact" class="footer__link">Contact</a>
+      </nav>
+      <div class="footer__store">
+        <a href="YOUR_TEEPUBLIC_STORE_URL" target="_blank" rel="noopener noreferrer"
+           class="btn btn--outline btn--sm" id="footerStoreBtn">
+          TeePublic Store ↗
+        </a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copy">© <span id="footerYear"></span> InkDrop Studio. All designs are original artwork.</p>
+    </div>
+  </footer>
+
+  <!-- =========================================================
+       DESIGN DETAIL MODAL
+  ========================================================= -->
+  <div class="modal" id="designModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal__overlay" id="modalOverlay" aria-hidden="true"></div>
+    <div class="modal__panel">
+      <button class="modal__close" id="modalClose" aria-label="Close design detail">✕</button>
+      <div class="modal__body">
+        <div class="modal__image-wrap">
+          <img class="modal__image" id="modalImage" src="" alt="" loading="lazy" />
+        </div>
+        <div class="modal__info">
+          <span class="modal__category" id="modalCategory"></span>
+          <h2 class="modal__title" id="modalTitle"></h2>
+          <p class="modal__description" id="modalDescription"></p>
+          <div class="modal__products">
+            <p class="modal__products-label">Available on:</p>
+            <div class="modal__products-tags" id="modalProducts"></div>
+          </div>
+          <a class="btn btn--primary btn--full modal__cta" id="modalCta" href="#" target="_blank" rel="noopener noreferrer">
+            View on TeePublic ↗
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top" title="Back to top" hidden>↑</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
